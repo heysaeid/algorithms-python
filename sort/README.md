@@ -8,3 +8,16 @@ This is because the algorithm uses nested loops to compare and swap adjacent ele
 Additionally, the algorithm always performs n-1 passes over the array, even if the array is already sorted, which makes it inefficient for large arrays.
 
 For small arrays or arrays that are almost sorted, the bubble sort algorithm may perform reasonably well. However, for larger arrays, more efficient sorting algorithms such as quicksort or mergesort are preferred, as they have a better average-case and worst-case time complexity.
+
+# Merge sort
+Merge sort is a sorting algorithm that uses a divide-and-conquer strategy to sort an array. It divides the array into two halves, sorts each half recursively, and then merges the two sorted halves back together.
+
+The time complexity of the merge sort algorithm is O(n log n) in the average and worst cases.
+
+The merge sort algorithm divides the input array into two halves recursively until there is only one element in each half, which takes O(log n) time. Then it merges the two sorted halves back together, which takes O(n) time. Since the merge operation is performed on two halves of roughly equal size, the merge operation takes O(n) time.
+
+Therefore, the total time complexity of the merge sort algorithm is O(n log n), as the algorithm splits the array into roughly equal halves log n times, and each of these log n levels requires O(n) time to merge the subarrays.
+
+In the best case, where the input array is already sorted, the time complexity of merge sort is still O(n log n), as the algorithm still needs to divide and merge the array.
+
+Overall, the merge sort algorithm provides a very efficient way of sorting arrays and is widely used in practice due to its stability, scalability, and ability to handle large datasets.
