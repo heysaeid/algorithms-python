@@ -32,7 +32,3 @@ def merge_sort(arr):
             arr[k] = right_half[j]
             j += 1
             k += 1
-
-arr = [19, 1, 5, 21, 545, 1]
-merge_sort(arr)
-print(arr)
