@@ -36,3 +36,6 @@ This implementation has a time complexity of O(n^2) in the worst case, where n i
 Selection sort is a simple, comparison-based sorting algorithm that sorts an array by repeatedly finding the minimum element from the unsorted part of the array and putting it at the beginning. The algorithm divides the input array into two parts: a sorted subarray which starts empty and grows with each iteration, and an unsorted subarray which contains all the remaining elements. The algorithm then selects the smallest element from the unsorted subarray and swaps it with the first element of the unsorted subarray. This effectively moves the smallest element to its correct position in the sorted subarray, and reduces the size of the unsorted subarray by 1. The process is repeated until the entire array is sorted.
 
 Selection sort has a time complexity of O(n^2) in the worst case, which makes it relatively inefficient for large arrays. However, it has the advantage of being simple and easy to implement, making it a good choice for small arrays or as a teaching tool for introductory computer science courses.
+
+# Radix Sort
+Radix Sort is a non-comparative sorting algorithm that sorts elements by processing individual digits in each element. It can be used to sort integers or strings of characters, and it sorts them by grouping digits or characters by place value.
