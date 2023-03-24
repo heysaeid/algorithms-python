@@ -16,5 +16,3 @@ def brute_force(text, pattern):
             return i
         
     return -1
-
-print(brute_force("hello world", "world"))
