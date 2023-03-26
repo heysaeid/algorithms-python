@@ -42,3 +42,23 @@ Knowing a set of algorithms helps you to choose the best algorithm for a given p
 Some common algorithms that are useful to know include sorting algorithms (such as bubble sort, insertion sort, quicksort, and mergesort), searching algorithms (such as linear search and binary search), graph algorithms (such as Dijkstra's algorithm and Bellman-Ford algorithm), and dynamic programming algorithms (such as the Fibonacci sequence algorithm and the Knapsack problem).
 
 In summary, while you may not need to know every single algorithm, having a good understanding of a set of commonly used algorithms can be very beneficial in the field of computer science.
+
+# List of Algorithms
+Search:
+- Binary Search
+- Linear Search
+
+Sort:
+- Bubble Sort
+- Insertion Sort
+- Merge Sort
+- Selection Sort
+- Merge Sort
+
+Graph:
+- Depth-first search (DFS)
+
+String:
+- Brute Force
+- Boyer Moore
+- Naive
