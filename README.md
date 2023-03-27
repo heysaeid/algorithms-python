@@ -61,4 +61,5 @@ Graph:
 String:
 - Brute Force
 - Boyer Moore
+- Rabin-Karp
 - Naive
