@@ -10,3 +10,8 @@ F(n) = 1, if n = 1
 F(n) = F(n-1) + F(n-2), if n > 1
 
 where F(n) is the nth Fibonacci number.
+
+# Maximum Subarray Sum
+The Maximum Subarray Sum problem is a well-known problem in computer science that involves finding the maximum sum of a contiguous subarray within a given array of integers. This problem can be solved using an efficient algorithm called the Kadane's algorithm.
+
+The time complexity of the Kadane's algorithm for finding the maximum subarray sum is O(n), where n is the length of the input array.
