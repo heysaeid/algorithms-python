@@ -8,3 +8,5 @@ To encrypt a message using the Caesar Cipher, we first choose a key, which is ty
 To decrypt a message that has been encrypted using the Caesar Cipher, we simply shift each letter in the ciphertext backwards by k positions to recover the original plaintext message.
 
 The Caesar Cipher is a very weak encryption algorithm and is easily broken by modern cryptographic techniques. However, it is still used today as a basic example of encryption and decryption.
+
+The time complexity of the Caesar Cipher algorithm is O(n), where n is the length of the plaintext message. This is because the algorithm iterates over each character in the message exactly once, performing a constant number of operations (primarily arithmetic and string manipulation) on each character. Therefore, the overall time complexity is proportional to the length of the input message.
