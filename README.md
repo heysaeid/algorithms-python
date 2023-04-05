@@ -71,3 +71,4 @@ Dynamic Programming:
 
 Ciphers:
 - Caesar Cipher
+- Substitution Cipher

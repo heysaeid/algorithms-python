@@ -8,3 +8,8 @@ To encrypt a message using the Caesar Cipher, we first choose a key, which is ty
 To decrypt a message that has been encrypted using the Caesar Cipher, we simply shift each letter in the ciphertext backwards by k positions to recover the original plaintext message.
 
 The Caesar Cipher is a very weak encryption algorithm and is easily broken by modern cryptographic techniques. However, it is still used today as a basic example of encryption and decryption.
+
+# Substitution Cipher
+The Substitution Cipher is a type of encryption algorithm that replaces each letter in the plaintext message with a different letter, according to a predetermined substitution key. The substitution key is a mapping of each letter of the alphabet to another letter, such that no two letters map to the same letter.
+
+The time complexity of the substitution cipher algorithm depends on the length of the message and the size of the key space. Generally, the algorithm has a time complexity of O(n), where n is the length of the message. However, the time complexity can increase if the key space is large, as the algorithm would need to perform more substitution operations. Overall, the time complexity of the substitution cipher algorithm is considered to be relatively low.
