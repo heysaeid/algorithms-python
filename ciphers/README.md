@@ -15,3 +15,8 @@ The time complexity of the Caesar Cipher algorithm is O(n), where n is the lengt
 The Substitution Cipher is a type of encryption algorithm that replaces each letter in the plaintext message with a different letter, according to a predetermined substitution key. The substitution key is a mapping of each letter of the alphabet to another letter, such that no two letters map to the same letter.
 
 The time complexity of the substitution cipher algorithm depends on the length of the message and the size of the key space. Generally, the algorithm has a time complexity of O(n), where n is the length of the message. However, the time complexity can increase if the key space is large, as the algorithm would need to perform more substitution operations. Overall, the time complexity of the substitution cipher algorithm is considered to be relatively low.
+
+# Transposition Cipher
+The transposition cipher is a type of encryption technique that rearranges the letters of a message to create a new, encrypted message. It works by using a specific key to rearrange the letters of the original message into a new order. The new order of the letters is then used to create the encrypted message.
+
+The time complexity of the Transposition cipher algorithm is O(n), where n is the length of the plaintext or ciphertext. This is because both encryption and decryption involve iterating over each character in the input string exactly once.
