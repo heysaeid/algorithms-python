@@ -1,4 +1,4 @@
-# Bubble Sort(Babel)
+#Bubble Sort(Babel)
 The Bubble sort algorithm, also known as the Babel sort algorithm, is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order. The algorithm gets its name from the way smaller elements "bubble" to the top of the list.
 
 The time complexity of the bubble sort algorithm is O(n^2), where n is the number of elements in the array.
