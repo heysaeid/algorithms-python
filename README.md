@@ -73,3 +73,4 @@ Ciphers:
 - Caesar Cipher
 - Substitution Cipher
 - Transposition Cipher
+- Hill Cipher

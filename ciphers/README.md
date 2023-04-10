@@ -20,3 +20,6 @@ The time complexity of the substitution cipher algorithm depends on the length o
 The transposition cipher is a type of encryption technique that rearranges the letters of a message to create a new, encrypted message. It works by using a specific key to rearrange the letters of the original message into a new order. The new order of the letters is then used to create the encrypted message.
 
 The time complexity of the Transposition cipher algorithm is O(n), where n is the length of the plaintext or ciphertext. This is because both encryption and decryption involve iterating over each character in the input string exactly once.
+
+# Hill Cipher
+The Hill Cipher algorithm is a polygraphic substitution cipher based on linear algebra. It was invented by Lester S. Hill in 1929. In this cipher, a plaintext message is broken down into blocks of n letters and then encrypted using an n x n matrix. The resulting ciphertext blocks are then concatenated to form the final encrypted message.
