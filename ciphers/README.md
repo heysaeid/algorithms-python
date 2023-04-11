@@ -23,3 +23,5 @@ The time complexity of the Transposition cipher algorithm is O(n), where n is th
 
 # Hill Cipher
 The Hill Cipher algorithm is a polygraphic substitution cipher based on linear algebra. It was invented by Lester S. Hill in 1929. In this cipher, a plaintext message is broken down into blocks of n letters and then encrypted using an n x n matrix. The resulting ciphertext blocks are then concatenated to form the final encrypted message.
+
+The time complexity of the Hill Cipher algorithm depends on the size of the plaintext and the key matrix. In the provided Python example, the encryption and decryption functions operate on blocks of n letters, where n is the size of the key matrix (i.e., n x n). Therefore, the time complexity of both encryption and decryption functions is O(len(message) * n^3), where len(message) is the length of the plaintext and n is the size of the key matrix.
