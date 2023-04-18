@@ -43,7 +43,7 @@ Some common algorithms that are useful to know include sorting algorithms (such 
 
 In summary, while you may not need to know every single algorithm, having a good understanding of a set of commonly used algorithms can be very beneficial in the field of computer science.
 
-# List of Algorithms
+## List of Algorithms
 Search:
 - Binary Search
 - Linear Search
