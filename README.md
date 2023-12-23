@@ -57,6 +57,7 @@ Sort:
 
 Graph:
 - Depth-first search (DFS)
+- Breath-first search (BFS)
 
 String:
 - Brute Force
