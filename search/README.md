@@ -18,3 +18,6 @@ Jump Search is an algorithm designed for searching in sorted arrays. It works by
 1. Jumping: The algorithm jumps ahead by a fixed number of steps (typically 𝑛n, where 𝑛n is the size of the array) until it finds a block where the target element might be present or surpasses it.
 
 2. Linear Search: Once the block where the target might be located is identified, a linear search is performed within that block to find the exact position of the target element.
+
+# Fibonacci Search
+Fibonacci Search is a search algorithm used for sorted arrays. It utilizes the Fibonacci sequence to divide the search range, rather than halving it as in binary search. The basic idea is to compare the target element with elements located at Fibonacci-indexed positions, reducing the search range based on the result of the comparison.

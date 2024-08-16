@@ -47,6 +47,8 @@ In summary, while you may not need to know every single algorithm, having a good
 Search:
 - Binary Search
 - Linear Search
+- Jump Search
+- Fibonacci Search
 
 Sort:
 - Bubble Sort
